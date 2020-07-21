@@ -1,0 +1,8 @@
+# Routes
+# This file defines all application routes (Higher priority routes first)
+# https://www.playframework.com/documentation/latest/ScalaRouting
+# ~~~~
+
+GET     /contacts                   controllers.HomeController.contacts()
+GET     /contacts/$id<[0-9]+>       controllers.HomeController.getContactById(id: Int)
+POST    /contacts/add               controllers.HomeController.addContact()

@@ -1,0 +1,3 @@
+{"name": "My little pony", "number": "+71234058675"}
+{"name": "Vasily", "number": "81264956675"}
+{"name":"Professor","number":"+79999999123"}
